@@ -1,8 +1,3 @@
-# Name: Robert Sonnenfelt
-# OSU Email: sonnenfr@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment:  Assignment 6 - HashMap
-# Due Date: 12/7/23
 # Description: Implementation of a HashMap in two forms - separate chaining
 # and via open addressing with quadratic probing
 
