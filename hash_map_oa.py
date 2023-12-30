@@ -1,5 +1,4 @@
-# Description: Implementation of a HashMap in two forms - separate chaining
-# and via open addressing with quadratic probing
+# Description: Implementation of a HashMap using open addressing
 
 from a6_include import (DynamicArray, DynamicArrayException, HashEntry,
                         hash_function_1, hash_function_2)
