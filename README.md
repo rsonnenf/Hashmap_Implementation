@@ -42,7 +42,7 @@ The Hash table is stored in a dynamic array. In the event of a collision, chaini
 A dynamic array stores the hash table and uses open addressing in the event of a collision inside the dynamic array.
 
 ### Implementation
-* **put(self, key: str, value: object) -> None**: This method updates a key/value pair in the hash map. If the entered key already exists sin the hash map, its value is replaced with the new value. If, however, the key is not in the hash map, a new key/value pair is added. The method first checks to see if the table load factor is greater than or equal to 0.5. If so, the table is resized to double the current capacity of the table.
+* **put(self, key: str, value: object) -> None**: This method updates a key/value pair in the hash map. If the entered key already exists in the hash map, its value is replaced with the new value. If, however, the key is not in the hash map, a new key/value pair is added. The method first checks to see if the table load factor is greater than or equal to 0.5. If so, the table is resized to double the current capacity of the table.
 
 * **resize_table(self, new_capacity: int) -> None**: This method changes the capacity of the internal hash table while keeping existing key/value pairs in the new hash map. The method checks to see if the new capacity is prime, and if not, uses the next prime number. Once the new capacity is determined, the method iterates through the old hash table and puts each of the key/value pairs into the newly sized hash map. Then, the method reassigns the revised buckets and the new capacity to the old hash map.
 
